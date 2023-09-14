@@ -41,7 +41,7 @@ public class Main {
     public static void main(String[] args) {
         // считываем строку с последовательностью
         System.out.println("Пожалуйста, введите арифметическое выражение из двух операндов" +
-                "и одного оператора, разделённых пробелами.");
+                " и одного оператора, разделённых пробелами.");
         System.out.println("Пример: 1 + 2");
         Scanner sc = new Scanner(System.in);
         String inputSeq = sc.nextLine();
