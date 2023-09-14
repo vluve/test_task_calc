@@ -17,6 +17,9 @@ public class Main {
         catch (Exception e) {
             throw new Exception("Переданы неверные операнды!");
         }
+        if (res < 1 || res > 10 || op2 < 1 || op2 > 10) {
+            throw new Exception("Операнды должны находиться в диапазоне от 1 до 10, не более и не менее!");
+        }
         String operator = seq[1]; // получаем оператор выражения
         // рассчитываем значение выражения
         switch (operator) {
